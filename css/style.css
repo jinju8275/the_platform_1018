@@ -1,0 +1,176 @@
+
+
+.bg1{width: 100%;
+	height: 100%;
+	background-color: #131415;
+	border: 1px solid #74c5b8;
+	position: absolute;
+	
+	}
+
+.bg2{width: 98%; 
+	height: 96%;
+	margin: 1% 1%;
+	background-color: #131415;
+	border: 1px solid #74c5b8;
+	position: absolute;
+	
+	
+	}
+
+.bg3{width: 97%;
+	height: 96%;
+	margin: 1% 1.5%;
+	background-color: #131415;
+	border: 1px solid #74c5b8;
+	position: absolute;
+	
+
+}
+
+.bg4{width: 92%;
+	height: 100%;
+	margin: 0% 4%;
+	background-color: #131415;
+	border: 1px solid #74c5b8;
+	position: absolute;
+	
+
+}
+
+.right-box{
+	width: 100%;
+	height: 100%;
+	margin: 0%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-end;
+	position: absolute;
+
+}
+
+
+.left-box{
+	width: 100%;
+	height: 100%;
+	margin: 0%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	position: absolute;
+	
+
+}
+
+.center-box{
+	width: 100%;
+	height: 100%;
+	margin: 0%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	
+
+}
+
+
+.stage{width: 37.8%;
+		height: 7%;
+		background-color: #131415;
+		border: 1px solid #74c5b8;
+		z-index: 2;
+
+		
+		}
+
+.window {
+		width: 5%;
+		height: 4%;
+		margin-left: 16%;
+		margin-right: 16%;
+		background-color: #74c5b8;
+		border: 1px solid #74c5b8;
+		margin-top: 1.5%;
+		
+}
+
+.window:hover{	background-color: red;
+				border: 1px solid white;}
+
+.bed 	{width: 8%;
+		height: 4%;
+		background-color: #131415;
+		border: 1px solid #74c5b8;
+		margin-left: 4%;
+		margin-right: 4%;
+		margin-top: 1.5%;
+		
+		}
+
+
+
+
+@-webkit-keyframes jj {
+	0% { margin-top: 0;
+
+	}
+
+	20% { margin-top: 11%;
+
+	}
+
+	40% { margin-top: 22%;
+
+	}
+
+	60% { margin-top: 33%;
+
+	}
+
+	80% { margin-top: 44%;
+
+	}
+
+	100% { margin-top: 55%;
+		
+	}
+}
+
+.main-stage{width: 24.5%;
+			height: 6.4%;
+			background-color: #131415;
+			border: 1px solid #74c5b8;
+			animation-name: jj;
+
+			animation-duration: 15s;
+			animation-iteration-count: infinite;
+			animation-timing-function: ease-out;
+			z-index: 1;
+			/*이 부분이 위에서 아래로 움직이게 할 수 있을까?*/
+		}
+
+
+
+.line{
+	  width: 1px;
+	  height: 155.5%;
+	  background-color: #74c5b8;
+	  transform: rotate(-50deg);
+		position: absolute;
+		margin-top: -16.3%;
+		z-index: 0;
+		
+	}
+
+.line2{
+	  width: 1px;
+	  height: 104.8%;
+	  background-color: #74c5b8;
+	  transform: rotate(17deg);
+		position: absolute;
+		margin-top: -1.4%;
+
+}
+
+
